@@ -37,7 +37,7 @@ class selenideTest {
         }
 
         @Test
-        void shouldTestV1() {
+        void shouldTest() {
                 driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Виталий Петручик");
                 driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79134555624");
                 driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
